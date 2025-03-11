@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/express-serve-static-core": "npm:@types/express-serve-static-core@^5.0.6",
+    "@types/node": "npm:@types/node@^22.13.10",
+    "express": "npm:express@^4.21.2"
+  }
+}
